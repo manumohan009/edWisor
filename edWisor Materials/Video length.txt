@@ -1,0 +1,18 @@
+Introduction to Advance web - 74 min
+Introduction to Javascript - 56 min
+Javascript - Storing Data - 85 min
+JS-Programming Basics - 133 min
+JS-Functional Programming - 74 min
+JSON - 24 min
+
+Total - 446 min = 7.4 hr
+-------------------------------
+Introduction to ES6 - 41 min
+ES6 Programming - 140 min
+
+Total - 181 min = 3 Hr
+-------------------------------
+
+
+
+
