@@ -1,0 +1,437 @@
+/* Pseudo classes */
+/* div:click {
+    color: red;
+}
+
+div:hover {
+    color: tan;
+}
+
+div:focus {
+    color: deepskyblue;
+}
+div:visited {
+    color: dodgerblue;
+}
+
+input:valid {
+    background: green;
+}
+input:invalid {
+    background: tomato;
+}
+input:required {
+    border-color: red;
+}
+input:required:invalid {
+    background: orange;
+} */
+/* :active, :checked, :default, :disabled, :enabled, :first, :firstchild,
+ :last-child, :left, :right, :root, :lang(), :nth-child() */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* Pseudo Elements */
+/* button::after {
+    content: ":-)";
+}
+
+a::before {
+    content: ">>";
+    color: red;
+}
+
+p::first-letter {
+    font-weight: 800;
+    font-size: 20pt;
+}
+
+p::selection {
+    color: white;
+    background: black;
+} */
+
+/* ::cue, ::first-line, ::placeholder */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* Fonts */
+
+/* Web Fonts */
+/* <link rel="stylesheet" href="http://fonts.google.com/css?family=Roboto"> */
+/* body{
+    font-family: 'Roboto';
+} */
+
+/* System Fonts */
+/* body {
+    font-family:"system-ui";
+} */
+
+/* Styling */
+/* body {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: italic;
+    font-stretch: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1em; 
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* .parent {
+    background: tomato;
+    font-size: 20px;
+    width: 200px;
+}
+.child {
+    background: lime;
+    width: 50%;
+    font-size: 2em;
+} */
+
+
+/* :root {
+    font-size: 10px;
+}
+
+.parent {
+    background: tomato;
+    font-size: 20px;
+    width: 200px;
+}
+.child {
+    background: lime;
+    font-size: 3rem;
+} */
+
+/* .parent {
+    background: tomato;
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid blue;
+}
+.child {
+    background: lime;
+    height: 25vh;
+    width: 25vw;
+    border: 1px solid red;
+}
+.second-child {
+    background: khaki;
+    height: 50vmax;
+    width: 50vmax;
+    border: 1px solid red;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* Shorthand */
+
+/* div.parent {
+    border: 1px solid blue;
+}
+div.child {
+    margin: 10px 90px 40px 60px;
+    background: #ddd url(image.png) cover right bottom;
+    border: 1px solid red;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* Positioning & Layouts */
+/* .parent {
+    background: tomato;
+    padding: 5px;
+    text-align: center;
+    width: 70vw;
+}
+.child {
+    background: deepskyblue;
+    display: inline-block;
+    height: 20vw;
+    width: 20vw;
+}
+.second-child {
+    background: blueviolet;
+    display: inline-block;
+    height: 20vw;
+    width: 20vw;
+}
+.third-child {
+    background: lime;
+    display: inline-block;
+    height: 20vw;
+    width: 20vw;
+} */
+
+/* .parent {
+    background: tomato;
+    padding: 5px;
+    height: 70vh;
+    position: relative;
+    width: 40vw;
+}
+
+.fab {
+    background: lime;
+    bottom: 0;
+    border-radius: 50%;
+    position: absolute;
+    padding: 20px;
+    right: 0;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* Backgrounds */
+/* .parent {
+    background: linear-gradient(tomato, deepskyblue);
+    background: radial-gradient(tomato, deepskyblue);
+    padding: 5px;
+    height: 10vh;
+    position: relative;
+    width: 40vw;
+}
+.text {
+    color: #ffffff;
+    text-align: center;
+    line-height: 4;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* Borders */
+/* .parent {
+    background: beige;
+    border: 10px ridge orange;
+    border-top-color: lime;
+    border-bottom-color: deeppink;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-right-radius: 30%;
+    border-left-style: dotted;
+    padding: 5px;
+    height: 10vh;
+    position: relative;
+    width: 40vw;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* Cascading */
+/* 
+.parent {
+    background: deepskyblue;
+    padding: 5px;
+    height: 10vh;
+    width: 40vh;
+}
+.child {
+    background: khaki;
+}
+.parent .child {
+    background: tomato;
+    border: 5px dotted white !important;
+}
+
+#second-child {
+    background: lime;
+    border: 5px solid black;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* Inheritance */
+/* * {
+    font-size: 10px;
+}
+.parent {
+    background: deepskyblue;
+    font-size: 20px;
+    padding: 5px;
+    height: 10vh;
+    width: 40vw;
+}
+.second-child {
+    font-size: unset;
+}
+.third-child {
+    font-size: initial;
+}
+.outside {
+    font-size: inherit;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* Transitions */
+/* .parent {
+    background: deepskyblue;
+    font-size: 20px;
+    padding: 5px;
+    height: 30vh;
+    line-height: 3;
+    transition-property: padding;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+    width: 40vw;
+}
+.parent:hover {
+    padding: 20px;
+    transform: rotate(0.5turn);
+} */
+
+/* Animations */
+/* .bar{
+    background: #dddddd;
+    padding: 5px;
+    background: deepskyblue;
+    width: 10%;
+    animation: 3s linear 1s infinite alternate extends;
+    @keyframes extends {
+        from {
+            width: 10%;
+        } to{
+            width: 50%;
+        }
+    }
+} */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* Custom components */
+
+/* *{
+    font-family: 'Source Sans Pro';
+}
+
+.container {
+    display: flex;
+}
+
+.btn {
+    background: #fd0156;
+    border: 10px solid #ff614f;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+    text-transform: uppercase;
+    transition: color 0.3 linear 0.1s,
+        background 0.3s linear 0.1s,
+        box-shadow 0.3s linear 0.1s,
+        border 0.3s linear 0.1s;
+    letter-spacing: 1px;
+}
+.btn:hover {
+    background: #ff614f;
+    border: 10px dashed #fd0156;
+    color: #dddddd;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* .list{
+    box-shadow: 0px 0px 20px 0px #00000024;
+    margin: 25%;
+}
+ul{
+    padding: 0;
+}
+.list-head {
+    background: tomato;
+    border-top: 1px solid tomato;
+    border-top-left-radius: 5px;
+    border-bottom: 1px solid tomato;
+    border-top-right-radius: 5px;
+    color: #fff;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.list-item {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid tomato;
+    border-right: 1px solid tomato;
+    color: salmon;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    list-style: none;
+    padding: 5px;
+    text-transform: capitalize;
+    transform: font-size 0.3s linear 0.1s;
+}
+
+.list-item:last-child {
+    border-bottom: 1px solid tomato;
+}
+
+.list-item:hover {
+    background-color: salmon;
+    color: gold;
+    cursor: pointer;
+    font-size: 23px;
+} */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* * {
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+form {
+    box-shadow: 0px 0px 20px 0px #1c807c;
+    padding: 10px;
+}
+.form-element {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3vh;
+}
+label {
+    font-weight: 500;
+    padding-bottom: 0.5vh;
+    text-transform: uppercase;
+}
+input, textarea {
+    border: none;
+    border-bottom: 1px solid deepskyblue;
+    color: dodgerblue;
+    padding: 5px;
+    transition: border-bottom 0.3s linear 0.1s;
+}
+input:focus, textarea:focus {
+    outline: none;
+    border-bottom: 3px solid mediumturquoise;
+}
+form button {
+    background-color: mediumturquoise;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5vh;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: border 0.3s linear 0.1s;
+}
+form button:hover {
+    border: 3px solid deepskyblue;
+    cursor: pointer;
+} */
+
+/* :root {
+    font-size: 10px;
+}
+
+@media (min-width: 600px) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 800px) {
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+} */

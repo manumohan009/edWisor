@@ -1,0 +1,28 @@
+:root {
+    font-size:10px;
+}
+
+.parent {
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.item {
+    width: 10%;
+    border: 1px solid red;
+}
+.item:nth-child(3){
+    font-size: 80px;
+
+}
+
+/* flex-direction: row, row-reverse, column, column-reverse, wrap, */
+/* flex-wrap: wrap, wrap-reverse,  */
+/* justify-content: flex-end, center, space-around, ; */
+/* align-items: flex-start,flex-end,stretch,baseline; */
+/* align-content: flex-start, flex-end, space-around, space-between, center; */
+/* flex-grow: 1; */
+/* flex-shrink: 1; */
+/* align-self: flex-end, stretch, ; */
+
