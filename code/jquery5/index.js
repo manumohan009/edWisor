@@ -59,7 +59,7 @@ $(document).ready(() => {
 // $("#performSomeAction").parent().addClass('highlight');
 // $("#performSomeAction").parents().addClass('highlight');
 // $("#performSomeAction").parentsUntil('div').addClass('highlight');
-$(".paragraph").children('#my-form').addClass('highlight');
+// $(".paragraph").children('#my-form').addClass('highlight');
 // $(".icon-group").children().addClass('highlight');
 // $(".paragraph").find("*").addClass('highlight');
 // $(".paragraph").find("img").addClass('highlight');
