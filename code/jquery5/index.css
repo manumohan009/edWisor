@@ -110,3 +110,9 @@ body {
     border-color: green;
     border-width: 2px;
 }
+
+.highlight{
+    border-color: red;
+    border-style: dotted;
+    border-width: 3px;
+}

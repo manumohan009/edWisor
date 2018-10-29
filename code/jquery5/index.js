@@ -54,5 +54,33 @@ $(document).ready(() => {
 
 // $('#email-input').trigger('focus');
 
+//  --------------------------------------------------------
+
+// $("#performSomeAction").parent().addClass('highlight');
+// $("#performSomeAction").parents().addClass('highlight');
+// $("#performSomeAction").parentsUntil('div').addClass('highlight');
+$(".paragraph").children('#my-form').addClass('highlight');
+// $(".icon-group").children().addClass('highlight');
+// $(".paragraph").find("*").addClass('highlight');
+// $(".paragraph").find("img").addClass('highlight');
+
+
+// $(".icon").siblings().addClass('highlight');
+// $(".icon").next().addClass('highlight');
+// $(".row").nextAll().addClass('highlight');
+// $("div").nextUntil('.paragraph').addClass('highlight');
+// $("div").prev().addClass('highlight');
+// $("div").prevAll().addClass('highlight');
+// $("div").prevUntil('.paragraph').addClass('highlight');
+
+
+// $('.row').first().addClass('highlight');
+// $('.row').last().addClass('highlight');
+// $('.icon').eq(2).addClass('highlight');
+// $('div').filter(".paragraph").addClass('highlight');
+// $('img').filter(".icon").addClass('highlight');
+// $('div').not(".paragraph").addClass('highlight');
+
+
 	
 })// end doc ready
