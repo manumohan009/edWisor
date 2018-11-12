@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
 
   public allBlogs;
-  constructor(private blogHttpService: BlogHttpService) {
+  constructor(public blogHttpService: BlogHttpService) {
     console.log('Home component constructor called ');
   }
 
